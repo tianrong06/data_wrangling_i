@@ -55,7 +55,17 @@ pulse_df = read_sas("./data/public_pulse_data.sas7bdat")
 pulse_df
 ```
 
+## Comaprison with Base R
 
+what about `read.csv`...?
+
+```{r}
+litters_base = read.csv("data/FAS_litters.csv")
+litters_reader = read_csv("data/FAS_litters.csv")
+
+litters_base
+litters_reader
+```
 
 
 
